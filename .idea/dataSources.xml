@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="900214760">
-    <data-source source="LOCAL" name="MySQL - airbnb2@localhost" uuid="ddf22193-d7fd-4983-8325-0dd92931aa8e">
+  <component name="DataSourceManagerImpl" format="xml" hash="1481025169">
+    <data-source source="LOCAL" name="MySQL - airbnb3@localhost" uuid="c1f62c3b-e959-40db-8ebc-9a16fc122971">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/airbnb2</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/airbnb3</jdbc-url>
       <driver-properties>
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />

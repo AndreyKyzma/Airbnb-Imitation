@@ -4,10 +4,13 @@ import org.hibernate.ejb.HibernatePersistence;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import javax.sql.DataSource;
 import java.util.Properties;
@@ -17,10 +20,11 @@ import java.util.Properties;
  */
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.repository")
+@ComponentScan("com")
+@EnableJpaRepositories("com.repository")
 public class TestDataConfig {
     private static final String PROPERTY_NAME_DATABASE_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String PROPERTY_NAME_DATABASE_URL = "jdbc:mysql://localhost:3306/airbnb2";
+    private static final String PROPERTY_NAME_DATABASE_URL = "jdbc:mysql://localhost:3306/airbnb3";
     private static final String PROPERTY_NAME_DATABASE_USERNAME = "root";
     private static final String PROPERTY_NAME_DATABASE_PASSWORD = "root";
 
@@ -63,7 +67,7 @@ public class TestDataConfig {
 
     private Properties hibernateProp() {
         Properties properties = new Properties();
-        properties.put("hibernate.dialect",	PROPERTY_NAME_HIBERNATE_DIALECT);
+        properties.put("hibernate.dialect", PROPERTY_NAME_HIBERNATE_DIALECT);
         properties.put("hibernate.show_sql", PROPERTY_NAME_HIBERNATE_SHOW_SQL);
         properties.put("hibernate.hbm2ddl.auto", PROPERTY_NAME_HIBERNATE_HBM2DDL_AUTO);
         return properties;

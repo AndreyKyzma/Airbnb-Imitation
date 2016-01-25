@@ -8,7 +8,7 @@ import javax.persistence.*;
  * Created by Kyza on 21.01.2016.
  */
 @Entity
-
+@Table(name = "apartament")
 public class Apartment {
     @Id
     @GeneratedValue(generator = "increment")
@@ -16,23 +16,24 @@ public class Apartment {
     @Column(name = "id", length = 6, nullable = false)
     private long id;
 
-    @Column(name = "city")
+    @Column(name = "city", nullable = false)
     private String city;
 
-    @Column(name = "type")
+    @Column(name = "type", nullable = false)
     @Enumerated(EnumType.STRING)
     private ApartmentType apartmentType;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
-    @JoinColumn(name = "iduser", nullable = false)
+    @JoinColumn(name = "User_id", nullable = false)
     private User user;
 
 
 
-    public Apartment(String city, ApartmentType apartmentType, User user, ReservationDate reservationDate) {
+
+    public Apartment(String city, ApartmentType apartmentType,  ReservationDate reservationDate) {
         this.city = city;
         this.apartmentType = apartmentType;
-        this.user = user;
+
 
     }
 

@@ -1,9 +1,12 @@
 package com.model;
 
-import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.*;
 
 
 import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 
 /**
  * Created by Kyza on 21.01.2016.
@@ -30,7 +33,7 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    @Column(name = "usertype")
+    @Column(name = "user_type")
     private String usertype;
 
 
@@ -61,13 +64,7 @@ public class User {
         this.usertype = usertype;
     }
 
-    public long getId() {
-        return id;
-    }
 
-    public void setId(long id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;

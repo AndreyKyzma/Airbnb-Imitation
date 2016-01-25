@@ -1,5 +1,5 @@
 package com.service.impl;
-import com.repository.UserRepo;
+import com.repository.UserRepository;
 import com.model.User;
 import com.service.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,28 +14,28 @@ import java.util.List;
 public class UserImpl implements UserServices {
 
     @Autowired
-    UserRepo userRepo;
+   private UserRepository userRepository;
 
     @Override
     public User addUser(User user) {
-        User saveUser = userRepo.saveAndFlush(user);
+        User saveUser = userRepository.saveAndFlush(user);
         return saveUser;
     }
 
     @Override
     public void delete(long id) {
-        userRepo.delete(id);
+        userRepository.delete(id);
     }
 
 
 
     @Override
     public User editUser(User user) {
-        return userRepo.saveAndFlush(user);
+        return userRepository.saveAndFlush(user);
     }
 
     @Override
     public List<User> getAll() {
-        return userRepo.findAll();
+        return userRepository.findAll();
     }
 }

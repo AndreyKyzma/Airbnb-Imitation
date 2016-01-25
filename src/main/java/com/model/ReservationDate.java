@@ -1,5 +1,7 @@
 package com.model;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -7,30 +9,43 @@ import java.util.Date;
  * Created by Kyza on 21.01.2016.
  */
 @Entity
-
+@Table(name = "reservationdate")
 public class ReservationDate {
+    @Id
+    @GeneratedValue(generator = "increment")
+    @GenericGenerator(name = "increment", strategy = "increment")
+    @Column(name = "id", length = 6, nullable = false)
+    private long id;
 
-    @Column(name = "startReservation")
-    @Temporal(TemporalType.DATE)
+    @Column(name = "date_start",nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
     private Date startReservation;
 
-    @Column(name = "endReservation")
-    @Temporal(TemporalType.DATE)
+    @Column(name = "date_end",nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
     private Date endReservation;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
-    @JoinColumn(name = "apartamentId", nullable = false)
+    @JoinColumn(name = "Apartment_id", nullable = false)
     private Apartment apartment;
 
 
 
-    public ReservationDate(Date startReservation, Date endReservation, Apartment Apartment) {
+    public ReservationDate(Date startReservation, Date endReservation) {
         this.startReservation = startReservation;
         this.endReservation = endReservation;
-        this.apartment = apartment;
+
     }
 
     public ReservationDate() {
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public Date getStartReservation() {
@@ -49,13 +64,7 @@ public class ReservationDate {
         this.endReservation = endReservation;
     }
 
-    public Apartment getApartment() {
-        return apartment;
-    }
 
-    public void setApartment(Apartment apartment) {
-        this.apartment = apartment;
-    }
 
     @Override
     public String toString() {
