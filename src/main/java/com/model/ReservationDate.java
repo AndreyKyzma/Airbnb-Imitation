@@ -17,16 +17,16 @@ public class ReservationDate {
     @Column(name = "id", length = 6, nullable = false)
     private long id;
 
-    @Column(name = "date_start",nullable = false)
+    @Column(name = "date_start")
     @Temporal(TemporalType.TIMESTAMP)
     private Date startReservation;
 
-    @Column(name = "date_end",nullable = false)
+    @Column(name = "date_end")
     @Temporal(TemporalType.TIMESTAMP)
     private Date endReservation;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.MERGE, CascadeType.PERSIST})
-    @JoinColumn(name = "Apartment_id", nullable = false)
+    @JoinColumn(name = "Apartment_id")
     private Apartment apartment;
 
 

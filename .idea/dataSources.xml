@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1481025169">
-    <data-source source="LOCAL" name="MySQL - airbnb3@localhost" uuid="c1f62c3b-e959-40db-8ebc-9a16fc122971">
+  <component name="DataSourceManagerImpl" format="xml" hash="3598644671">
+    <data-source source="LOCAL" name="MySQL - airbnb3@localhost" uuid="a1a01662-780d-44c5-8e89-d7e7e6a69b01">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>

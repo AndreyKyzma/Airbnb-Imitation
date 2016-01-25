@@ -10,8 +10,7 @@ import java.util.List;
 public interface ReservDataServices {
     ReservationDate addReservationDate(ReservationDate reservationDate);
     void delete(long id);
-    ReservationDate getByDate(String name);
-    ReservationDate editDate(ReservationDate reservationDate);
+    ReservationDate getByDate(ReservationDate reservationDate);
     List<ReservationDate> getAll();
 
 }

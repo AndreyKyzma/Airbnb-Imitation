@@ -10,6 +10,6 @@ import java.util.List;
 public interface ApartmentServices {
     Apartment addApartment(Apartment apartment);
     void delete(long id);
-    Apartment getByApartment(String apartment);
+    Apartment editApartment(Apartment apartment);
     List<Apartment> getAll();
 }
