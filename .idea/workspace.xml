@@ -2,64 +2,154 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eaa2035-0ea3-4332-a6d4-940c2c6cc1c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Airbnb_Imitation_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Airbnb_Imitation_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/model/UserList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/list-users.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/new-user.jsp" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\Airbnb-Imitation.iml" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\jsp\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\test\java\com\Utill\ApartmentUtill.java" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\test\java\com\Utill\ReservDataUtill.java" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\test\java\com\Utill\UserUtill.java" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\test\java\com\config\TestDataConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\test\java\com\service\ApartmentServicesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\test\java\com\service\ReservServicesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\src\test\java\com\service\UserServicesTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/config/Initializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/config/Initializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/UserImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UserImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/service/UserServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/service/UserServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/controller/UserServletController.java" afterPath="$PROJECT_DIR$/src/main/java/com/controller/UserServletController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/config/WebAppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/config/WebAppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/app.properties" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_core_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_el_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_jasper_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_api_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_el_api_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_jasper_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_jasper_el_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_el_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_jdbc_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_jsp_api_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_juli_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_servlet_api_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_apache_tomcat_tomcat_util_7_0_54.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_7_0_57.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_eclipse_jdt_core_compiler_ecj_P20140317_1600.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_4.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\.idea\libraries\Maven__org_springframework_spring_test_3_2_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_6_RELEASE.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\META-INF\context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\WEB-INF\web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="G:\Downloads\Airbnb-Imitation\src\main\java\webapp\pages\jsp\login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app.war" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\META-INF\context.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\META-INF\context.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\app.properties" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\config\AppInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\config\WebAppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\controller\UserServletController.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\model\Apartment.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\model\ApartmentType.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\model\ReservationDate.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\model\User.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\model\UserList.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\repository\ApartmentRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\repository\ReservDataRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\repository\UserRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\service\ApartmentServices.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\service\ReservDataServices.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\service\UserServices.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\service\impl\ApartmentImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\service\impl\ReservationImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\com\service\impl\UserImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\jsp\list-users.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\jsp\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\classes\jsp\new-user.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\aspectjrt-1.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\aspectjweaver-1.8.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\classmate-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\ecj-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\evo-inflector-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\h2-1.3.176.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\hibernate-commons-annotations-4.0.2.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\hibernate-core-4.2.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\hibernate-entitymanager-4.2.5.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\hibernate-validator-5.0.3.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jackson-annotations-2.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jackson-core-2.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jackson-databind-2.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jboss-logging-3.1.0.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jcl-over-slf4j-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\jul-to-slf4j-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\log4j-over-slf4j-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\logback-classic-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\logback-core-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\mysql-connector-java-5.1.29.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\objenesis-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\slf4j-api-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\snakeyaml-1.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-aop-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-aspects-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-beans-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-autoconfigure-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-starter-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-starter-aop-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-starter-data-jpa-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-starter-jdbc-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-starter-logging-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-starter-tomcat-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-boot-starter-web-1.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-context-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-core-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-data-commons-1.8.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-data-jpa-1.6.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-data-rest-core-2.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-data-rest-webmvc-2.1.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-expression-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-hateoas-0.14.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-jdbc-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-orm-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-plugin-core-1.1.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-tx-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-web-4.0.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\spring-webmvc-4.0.3.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-api-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-el-api-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-embed-core-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-embed-el-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-embed-jasper-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-embed-logging-juli-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-jasper-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-jasper-el-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-jdbc-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-jsp-api-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-juli-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-servlet-api-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\tomcat-util-7.0.57.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\lib\validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\jsp\list-users.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\jsp\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\Airbnb-Imitation-app\jsp\new-user.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\META-INF\context.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\app.properties" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\config\AppInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\config\WebAppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\controller\UserServletController.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\model\Apartment.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\model\ApartmentType.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\model\ReservationDate.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\model\User.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\model\UserList.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\repository\ApartmentRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\repository\ReservDataRepo.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\repository\UserRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\service\ApartmentServices.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\service\ReservDataServices.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\service\UserServices.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\service\impl\ApartmentImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\service\impl\ReservationImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\com\service\impl\UserImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\jsp\list-users.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\jsp\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="G:\Downloads\Airbnb-Imitation\target\classes\jsp\new-user.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Airbnb-Imitation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -697,6 +787,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/target/Airbnb-Imitation-app.war" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1111,16 +1202,16 @@
       <created>1454074136230</created>
       <option name="number" value="Default" />
       <updated>1454074136230</updated>
-      <workItem from="1454074137916" duration="30538000" />
+      <workItem from="1454074137916" duration="31052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30538000" />
+    <option name="totallyTimeSpent" value="31052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1131,7 +1222,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10603589" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14599092" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3670473" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3670473" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24508321" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
