@@ -1,12 +1,12 @@
 package com.service.impl;
 
+import com.model.UserList;
 import com.repository.UserRepository;
 import com.model.User;
 import com.service.UserServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -18,51 +18,29 @@ import java.util.stream.Collectors;
  */
 @Service
 public class UserImpl implements UserServices {
-
     @Autowired
     private UserRepository userRepository;
 
-//    @Override
-//    public User addUser(User user) {
-//        User saveUser = userRepository.saveAndFlush(user);
-//        return saveUser;
-//    }
+    List<User> userList = UserList.getInstance();
 
     @Override
-    public void delete(long id) {
-        userRepository.delete(id);
-    }
-
-    @Override
-    public User editUser(User user) {
-        return userRepository.saveAndFlush(user);
-    }
-
-
-    @Override
-    public List<User> getAll() {
-        return userRepository.findAll();
-    }
-
-    public  List<User> getInstance(){
+    public List<User> getAllUser() {
         return userList;
     }
 
-    List<User> userList = new ArrayList<>();
-
-
-    public List<User> searchUserByName(String name) {
+    public List<User> searchUserByName(String userName) {
         Comparator<User> groupByComparator = Comparator.comparing(User::getName)
                 .thenComparing(User::getSurname);
         List<User> result = userList
                 .stream()
                 .filter(e -> e.getName()
-                        .equalsIgnoreCase(name) || e.getSurname()
-                        .equalsIgnoreCase(name))
+                        .equalsIgnoreCase(userName) || e.getSurname()
+                        .equalsIgnoreCase(userName))
                 .sorted(groupByComparator)
                 .collect(Collectors.toList());
         return result;
     }
+
     public User getUser(long id) throws Exception {
         Optional<User> match
                 = userList.stream()
@@ -74,33 +52,40 @@ public class UserImpl implements UserServices {
             throw new Exception("The User id " + id + " not found");
         }
     }
+
     @Override
-    public  User addUser(User user) {
-        User saveUser = userRepository.saveAndFlush(user);
+    public long addUser(User user) {
         userList.add(user);
-        return saveUser;
+        return user.getId();
     }
 
-    public boolean updateUser(User user) {
+    public boolean updateUser(User customer) {
         int matchIdx = 0;
         Optional<User> match = userList.stream()
-                .filter(c -> c.getId() == user.getId())
+                .filter(c -> c.getId() == customer.getId())
                 .findFirst();
         if (match.isPresent()) {
             matchIdx = userList.indexOf(match.get());
-            userList.set(matchIdx, user);
+            userList.set(matchIdx, customer);
             return true;
         } else {
             return false;
         }
     }
 
+    @Override
     public boolean deleteUser(long id) {
-        Predicate<User> employee = e -> e.getId() == id;
-        if (userList.removeIf(employee)) {
+        Predicate<User> user = e -> e.getId() == id;
+        if (userList.removeIf(user)) {
             return true;
         } else {
             return false;
         }
     }
+
+    @Override
+    public User editUser(User user) {
+        return userRepository.saveAndFlush(user);
+    }
+
 }

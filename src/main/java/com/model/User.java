@@ -5,7 +5,7 @@ import org.hibernate.annotations.*;
 
 import javax.persistence.*;
 import javax.persistence.Entity;
-import javax.persistence.Table;
+import java.util.concurrent.atomic.AtomicLong;
 
 
 /**
@@ -14,6 +14,7 @@ import javax.persistence.Table;
 @Entity
 
 public class User {
+
     @Id
     @GeneratedValue(generator = "increment")
     @GenericGenerator(name = "increment", strategy = "increment")
@@ -36,13 +37,24 @@ public class User {
     @Column(name = "user_type")
     private String usertype;
 
+    private static final AtomicLong counter = new AtomicLong(100);
 
-    public User(String name, String surname, String city, String email, String password, String usertype) {
+    public User(String name, String surname, String email, String password, String usertype, long id) {
         this.name = name;
         this.surname = surname;
         this.email = email;
         this.password = password;
         this.usertype = usertype;
+        this.id = id;
+    }
+
+    public User(String name, String surname, String email, String password, String usertype) {
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.password = password;
+        this.usertype = usertype;
+        this.id = counter.incrementAndGet();
     }
 
     public User() {

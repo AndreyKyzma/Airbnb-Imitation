@@ -30,7 +30,7 @@ import java.util.Properties;
 @EnableTransactionManagement
 @PropertySource("classpath:app.properties")
 @EnableJpaRepositories("com.repository")
-public class WebAppConfig extends WebMvcConfigurerAdapter {
+public class WebAppConfig {
     private static final String PROP_DATABASE_DRIVER = "db.driver";
     private static final String PROP_DATABASE_PASSWORD = "db.password";
     private static final String PROP_DATABASE_URL = "db.url";
@@ -87,21 +87,21 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
     //WEB-config
 
     // Позволяет видеть все ресурсы в папке pages, такие как картинки, стили и т.п.
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/pages/**").addResourceLocations("/pages/");
-    }
+//    @Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//        registry.addResourceHandler("/pages/**").addResourceLocations("/pages/");
+//    }
 
     // а этот бин инициализирует View нашего проекта
     // точно это же мы делали в mvc-dispatcher-servlet.xml
-    @Bean
-    public InternalResourceViewResolver setupViewResolver() {
-        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setPrefix("/pages/");
-        resolver.setSuffix(".jsp");
-        resolver.setViewClass(JstlView.class);
-
-        return resolver;
-    }
+//    @Bean
+//    public InternalResourceViewResolver setupViewResolver() {
+//        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+//        resolver.setPrefix("/pages/");
+//        resolver.setSuffix(".jsp");
+//        resolver.setViewClass(JstlView.class);
+//
+//        return resolver;
+//    }
 
 }
