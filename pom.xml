@@ -7,7 +7,9 @@
     <groupId>Airbnb-Imitation</groupId>
     <artifactId>Airbnb-Imitation</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <packaging>war</packaging>
+    <name>Airbnb-Imitation</name>
+    <description>Airbnb</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,6 +27,7 @@
         <spring.test>3.2.4.RELEASE</spring.test>
         <junit.version>4.11</junit.version>
         <jackson.version>2.6.3</jackson.version>
+        <tomcat.version>7.0.57</tomcat.version>
     </properties>
 
 
@@ -148,15 +151,27 @@
 
     </dependencies>
 
-
     <build>
-
-
         <finalName>Airbnb-Imitation-app</finalName>
         <resources>
             <resource>
+            <directory>src/main/java</directory>
+            <filtering>true</filtering>
+            <excludes>
+                <exclude>**/*.java</exclude>
+            </excludes>
+            </resource>
+            <resource>
                 <directory>src/main/webapp</directory>
-                <targetPath>META-INF/resources</targetPath>
+                <targetPath>src/main/webapp/META-INF</targetPath>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
             </resource>
         </resources>
         <plugins>
@@ -169,7 +184,6 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
